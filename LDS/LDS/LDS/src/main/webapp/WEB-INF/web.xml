@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>LDS</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+
+	</welcome-file-list>
+	<!-- <servlet> -->
+	<!-- <servlet-name>notpickles</servlet-name> -->
+	<!-- <servlet-class>servlets.MyServlet</servlet-class> -->
+	<!-- <init-param> -->
+	<!-- <param-name>initKey</param-name> -->
+	<!-- <param-value>my init param</param-value> -->
+	<!-- </init-param> -->
+	<!-- <load-on-startup>1</load-on-startup> -->
+	<!-- </servlet> -->
+
+	<servlet>
+		<servlet-name>/index.jsp</servlet-name>
+		<jsp-file>index.jsp</jsp-file>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>dispatcher</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/ApplicationContext.xml</param-value>
+	</context-param>
+	<listener>
+ 	 <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+	<servlet>
+		<servlet-name>/CommitManagement.jsp</servlet-name>
+		<jsp-file>CommitManagement.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>/CommitManagementTwo.jsp</servlet-name>
+		<jsp-file>CommitManagementTwo.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/LoanManagement.jsp</servlet-name>
+		<jsp-file>LoanManagement.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/LoanManagementTwo.jsp</servlet-name>
+		<jsp-file>LoanManagementTwo.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/LenderManagementTwo.jsp</servlet-name>
+		<jsp-file>LenderManagementTwo.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/CreateLoan.jsp</servlet-name>
+		<jsp-file>CreateLoan.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/CreateLender.jsp</servlet-name>
+		<jsp-file>CreateLender.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/EditLoan.jsp</servlet-name>
+		<jsp-file>EditLoan.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/EditCommit.jsp</servlet-name>
+		<jsp-file>EditCommit.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>/LenderManagement.jsp</servlet-name>
+		<jsp-file>LenderManagement.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	
+		<servlet>
+		<servlet-name>/Table.jsp</servlet-name>
+		<jsp-file>Table.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	
+		<servlet>
+		<servlet-name>/AboutMe.jsp</servlet-name>
+		<jsp-file>AboutMe.jsp</jsp-file>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<!-- <context-param> -->
+	<!-- <param-name>contextKey</param-name> -->
+	<!-- <param-value>my context param</param-value> -->
+	<!-- </context-param> -->
+
+
+	<servlet>
+		<servlet-name>Error</servlet-name>
+		<servlet-class>com.jselmser.lds.servlet.ErrorServlet</servlet-class>
+	</servlet>
+
+<!-- 	<servlet-mapping> -->
+<!-- 		<servlet-name>DispatcherServlet</servlet-name> -->
+<!-- 		<url-pattern>*.do</url-pattern> -->
+<!-- 	</servlet-mapping> -->
+
+	<servlet-mapping>
+		<servlet-name>Error</servlet-name>
+		<url-pattern>/e</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/e</location>
+	</error-page>
+
+	<error-page>
+		<exception-type>javax.servlet.ServletException</exception-type>
+		<location>/e</location>
+	</error-page>
+
+</web-app>

@@ -1,0 +1,1298 @@
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:24:24 EST 2015]; root of context hierarchy
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+INFO - Loading XML bean definitions from class path resource [dispatcher-servlet.xml]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:07 EST 2015]; root of context hierarchy
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+INFO - Loading XML bean definitions from class path resource [WEB-INF/dispatcher-servlet.xml]
+DEBUG - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd]
+DEBUG - Loading schema mappings from [META-INF/spring.schemas]
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-3.1.xsd
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.1.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.1.xsd] in classpath: org/springframework/context/config/spring-context-3.1.xsd
+DEBUG - Loading bean definitions
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Looking for matching resources in directory tree [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds]
+DEBUG - Searching directory [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds] for files matching pattern [C:/Users/joshs/Documents/Eintern/Work Projects/LDS/LDS/target/classes/com/jselmser/lds/**/*.class]
+DEBUG - Searching directory [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet] for files matching pattern [C:/Users/joshs/Documents/Eintern/Work Projects/LDS/LDS/target/classes/com/jselmser/lds/**/*.class]
+DEBUG - Resolved location pattern [classpath*:com/jselmser/lds/**/*.class] to resources [file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\AppStart.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\BusinessObject.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Commit.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\CustomHibernateDaoSupport.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\GenericDAO.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Lender.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Loan.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\OracleDAO.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\ErrorServlet.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\WebHandler.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\TestSteps.class]]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\AppStart.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\AppStart.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\BusinessObject.class]
+DEBUG - Identified candidate component class: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\BusinessObject.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Commit.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Commit.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\CustomHibernateDaoSupport.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\CustomHibernateDaoSupport.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\GenericDAO.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\GenericDAO.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Lender.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Lender.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Loan.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Loan.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\OracleDAO.class]
+DEBUG - Identified candidate component class: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\OracleDAO.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\ErrorServlet.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\ErrorServlet.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\WebHandler.class]
+DEBUG - Identified candidate component class: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\WebHandler.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\TestSteps.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\TestSteps.class]
+DEBUG - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+INFO - Loading XML bean definitions from class path resource [WEB-INF/DataSource.xml]
+DEBUG - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+DEBUG - Loading bean definitions
+DEBUG - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]
+DEBUG - Imported 2 bean definitions from relative location [DataSource.xml]
+INFO - Loading XML bean definitions from class path resource [WEB-INF/Hibernate.xml]
+DEBUG - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+DEBUG - Loading bean definitions
+DEBUG - Imported 1 bean definitions from relative location [Hibernate.xml]
+DEBUG - Loaded 24 bean definitions from location pattern [/WEB-INF/dispatcher-servlet.xml]
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: org.springframework.beans.factory.support.DefaultListableBeanFactory@6a192cfe: defining beans [org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,BusinessObject,OracleDAO,webHandler,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory]; root of factory hierarchy
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG - Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG - Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+TRACE - Caching PropertyDescriptors for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+TRACE - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+TRACE - Found bean property 'beanName' of type [java.lang.String]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'fileEncoding' of type [java.lang.String]
+TRACE - Found bean property 'ignoreResourceNotFound' of type [boolean]
+TRACE - Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+TRACE - Found bean property 'localOverride' of type [boolean]
+TRACE - Found bean property 'location' of type [org.springframework.core.io.Resource]
+TRACE - Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'nullValue' of type [java.lang.String]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'placeholderPrefix' of type [java.lang.String]
+TRACE - Found bean property 'placeholderSuffix' of type [java.lang.String]
+TRACE - Found bean property 'properties' of type [java.util.Properties]
+TRACE - Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+TRACE - Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+TRACE - Found bean property 'searchSystemEnvironment' of type [boolean]
+TRACE - Found bean property 'systemPropertiesMode' of type [int]
+TRACE - Found bean property 'systemPropertiesModeName' of type [java.lang.String]
+TRACE - Found bean property 'valueSeparator' of type [java.lang.String]
+TRACE - Converting String to [interface org.springframework.core.io.Resource] using property editor [org.springframework.core.io.ResourceEditor@424e1977]
+DEBUG - Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+INFO - Loading properties file from class path resource [WEB-INF/database.properties]
+TRACE - Resolved placeholder 'jdbc.driverClassName'
+TRACE - Resolved placeholder 'jdbc.url'
+TRACE - Resolved placeholder 'jdbc.username'
+TRACE - Resolved placeholder 'jdbc.password'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@394a2528]
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@484970b0]
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a192cfe: defining beans [org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,BusinessObject,OracleDAO,webHandler,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'cacheSeconds' of type [int]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'locations' of type [java.util.List]
+TRACE - Found bean property 'requireSession' of type [boolean]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'supportedMethods' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'useCacheControlHeader' of type [boolean]
+TRACE - Found bean property 'useCacheControlNoStore' of type [boolean]
+TRACE - Found bean property 'useExpiresHeader' of type [boolean]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+TRACE - Converting String to [interface org.springframework.core.io.Resource] using property editor [org.springframework.core.io.ResourceEditor@2892dae4]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]
+TRACE - Found bean property 'alwaysUseFullPath' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'defaultHandler' of type [java.lang.Object]
+TRACE - Found bean property 'handlerMap' of type [java.util.Map]
+TRACE - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+TRACE - Found bean property 'lazyInitHandlers' of type [boolean]
+TRACE - Found bean property 'mappings' of type [java.util.Properties]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+TRACE - Found bean property 'rootHandler' of type [java.lang.Object]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'urlDecode' of type [boolean]
+TRACE - Found bean property 'urlMap' of type [java.util.Map]
+TRACE - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Creating instance of bean '(inner bean)'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.format.support.FormattingConversionServiceFactoryBean]
+TRACE - Caching PropertyDescriptors for class [org.springframework.format.support.FormattingConversionServiceFactoryBean]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'converters' of type [java.util.Set]
+TRACE - Found bean property 'embeddedValueResolver' of type [org.springframework.util.StringValueResolver]
+TRACE - Found bean property 'formatterRegistrars' of type [java.util.Set]
+TRACE - Found bean property 'formatters' of type [java.util.Set]
+TRACE - Found bean property 'object' of type [org.springframework.format.support.FormattingConversionService]
+TRACE - Found bean property 'objectType' of type [java.lang.Class]
+TRACE - Found bean property 'registerDefaultFormatters' of type [boolean]
+TRACE - Found bean property 'singleton' of type [boolean]
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Finished creating instance of bean '(inner bean)'
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+TRACE - Ignoring constructor [public org.springframework.web.servlet.handler.MappedInterceptor(java.lang.String[],org.springframework.web.context.request.WebRequestInterceptor)] of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.web.servlet.handler.MappedInterceptor#0': Unsatisfied dependency expressed through constructor argument with index 1 of type [org.springframework.web.context.request.WebRequestInterceptor]: Could not convert constructor argument value of type [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor] to required type [org.springframework.web.context.request.WebRequestInterceptor]: Failed to convert value of type 'org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor' to required type 'org.springframework.web.context.request.WebRequestInterceptor'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor] to required type [org.springframework.web.context.request.WebRequestInterceptor]: no matching editors or conversion strategy found
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.MappedInterceptor]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.MappedInterceptor]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'interceptor' of type [org.springframework.web.servlet.HandlerInterceptor]
+TRACE - Found bean property 'pathPatterns' of type [[Ljava.lang.String;]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]
+TRACE - Found bean property 'alwaysUseFullPath' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'defaultHandler' of type [java.lang.Object]
+TRACE - Found bean property 'detectHandlersInAncestorContexts' of type [boolean]
+TRACE - Found bean property 'handlerMap' of type [java.util.Map]
+TRACE - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+TRACE - Found bean property 'lazyInitHandlers' of type [boolean]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+TRACE - Found bean property 'rootHandler' of type [java.lang.Object]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'urlDecode' of type [boolean]
+TRACE - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Looking for URL mappings in application context: org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:07 EST 2015]; root of context hierarchy
+DEBUG - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'BusinessObject': no URL paths identified
+DEBUG - Rejected bean name 'OracleDAO': no URL paths identified
+DEBUG - Rejected bean name 'webHandler': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0': no URL paths identified
+DEBUG - Rejected bean name 'dataSource': no URL paths identified
+DEBUG - Rejected bean name 'sessionFactory': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+DEBUG - Rejected bean name 'environment': no URL paths identified
+DEBUG - Rejected bean name 'systemProperties': no URL paths identified
+DEBUG - Rejected bean name 'systemEnvironment': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+DEBUG - Rejected bean name 'messageSource': no URL paths identified
+DEBUG - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]
+TRACE - Found bean property 'alwaysUseFullPath' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'defaultHandler' of type [java.lang.Object]
+TRACE - Found bean property 'detectHandlerMethodsInAncestorContexts' of type [boolean]
+TRACE - Found bean property 'handlerMethods' of type [java.util.Map]
+TRACE - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'urlDecode' of type [boolean]
+TRACE - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+TRACE - Found bean property 'useSuffixPatternMatch' of type [boolean]
+TRACE - Found bean property 'useTrailingSlashMatch' of type [boolean]
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Looking for request mappings in application context: org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:07 EST 2015]; root of context hierarchy
+INFO - Mapped "{[/CreateCommit.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCreateCommit(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/LenderManagement.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleLenderManagement(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CreateLender.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCreateLender(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/LoanManagement.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleLoanManagement(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewArchivedLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewArchivedLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CommitManagement.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCommitManagement(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ArchivedLoans.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleArchivedLoans(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ArchivedCommits.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleArchivedCommits(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CreateLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCreateLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/EditLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleEditLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/EditLender.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleEditLender(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewCommit.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewCommit(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewLender.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewLender(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/AddLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleAddLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/RemoveLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleEditCommit(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/Home.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleHome(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/AboutMe.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleAboutMe(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'argumentResolvers' of type [org.springframework.web.method.support.HandlerMethodArgumentResolverComposite]
+TRACE - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+TRACE - Found bean property 'cacheSeconds' of type [int]
+TRACE - Found bean property 'cacheSecondsForSessionAttributeHandlers' of type [int]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'customArgumentResolvers' of type [java.util.List]
+TRACE - Found bean property 'customReturnValueHandlers' of type [java.util.List]
+TRACE - Found bean property 'ignoreDefaultModelOnRedirect' of type [boolean]
+TRACE - Found bean property 'initBinderArgumentResolvers' of type [org.springframework.web.method.support.HandlerMethodArgumentResolverComposite]
+TRACE - Found bean property 'messageConverters' of type [java.util.List]
+TRACE - Found bean property 'modelAndViewResolvers' of type [java.util.List]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'parameterNameDiscoverer' of type [org.springframework.core.ParameterNameDiscoverer]
+TRACE - Found bean property 'requireSession' of type [boolean]
+TRACE - Found bean property 'returnValueHandlers' of type [org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'sessionAttributeStore' of type [org.springframework.web.bind.support.SessionAttributeStore]
+TRACE - Found bean property 'supportedMethods' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'synchronizeOnSession' of type [boolean]
+TRACE - Found bean property 'useCacheControlHeader' of type [boolean]
+TRACE - Found bean property 'useCacheControlNoStore' of type [boolean]
+TRACE - Found bean property 'useExpiresHeader' of type [boolean]
+TRACE - Found bean property 'webBindingInitializer' of type [org.springframework.web.bind.support.WebBindingInitializer]
+DEBUG - Creating instance of bean '(inner bean)#1'
+TRACE - Getting BeanInfo for class [org.springframework.web.bind.support.ConfigurableWebBindingInitializer]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.bind.support.ConfigurableWebBindingInitializer]
+TRACE - Found bean property 'autoGrowNestedPaths' of type [boolean]
+TRACE - Found bean property 'bindingErrorProcessor' of type [org.springframework.validation.BindingErrorProcessor]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'conversionService' of type [org.springframework.core.convert.ConversionService]
+TRACE - Found bean property 'directFieldAccess' of type [boolean]
+TRACE - Found bean property 'messageCodesResolver' of type [org.springframework.validation.MessageCodesResolver]
+TRACE - Found bean property 'propertyEditorRegistrar' of type [org.springframework.beans.PropertyEditorRegistrar]
+TRACE - Found bean property 'propertyEditorRegistrars' of type [[Lorg.springframework.beans.PropertyEditorRegistrar;]
+TRACE - Found bean property 'validator' of type [org.springframework.validation.Validator]
+DEBUG - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Finished creating instance of bean '(inner bean)#1'
+DEBUG - Creating instance of bean '(inner bean)#2'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.ByteArrayHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.ByteArrayHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#2'
+DEBUG - Creating instance of bean '(inner bean)#3'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.StringHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.StringHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+TRACE - Found bean property 'writeAcceptCharset' of type [boolean]
+DEBUG - Finished creating instance of bean '(inner bean)#3'
+DEBUG - Creating instance of bean '(inner bean)#4'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.ResourceHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.ResourceHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#4'
+DEBUG - Creating instance of bean '(inner bean)#5'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.xml.SourceHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.SourceHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#5'
+DEBUG - Creating instance of bean '(inner bean)#6'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter]
+TRACE - Found bean property 'charset' of type [java.nio.charset.Charset]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'partConverters' of type [java.util.List]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#6'
+DEBUG - Creating instance of bean '(inner bean)#7'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#7'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver]
+TRACE - Found bean property 'argumentResolvers' of type [org.springframework.web.method.support.HandlerMethodArgumentResolverComposite]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'customArgumentResolvers' of type [java.util.List]
+TRACE - Found bean property 'customReturnValueHandlers' of type [java.util.List]
+TRACE - Found bean property 'mappedHandlerClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'mappedHandlers' of type [java.util.Set]
+TRACE - Found bean property 'messageConverters' of type [java.util.List]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'preventResponseCaching' of type [boolean]
+TRACE - Found bean property 'returnValueHandlers' of type [org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite]
+TRACE - Found bean property 'warnLogCategory' of type [java.lang.String]
+DEBUG - Creating instance of bean '(inner bean)#8'
+DEBUG - Finished creating instance of bean '(inner bean)#8'
+DEBUG - Creating instance of bean '(inner bean)#9'
+DEBUG - Finished creating instance of bean '(inner bean)#9'
+DEBUG - Creating instance of bean '(inner bean)#10'
+DEBUG - Finished creating instance of bean '(inner bean)#10'
+DEBUG - Creating instance of bean '(inner bean)#11'
+DEBUG - Finished creating instance of bean '(inner bean)#11'
+DEBUG - Creating instance of bean '(inner bean)#12'
+DEBUG - Finished creating instance of bean '(inner bean)#12'
+DEBUG - Creating instance of bean '(inner bean)#13'
+DEBUG - Finished creating instance of bean '(inner bean)#13'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'mappedHandlerClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'mappedHandlers' of type [java.util.Set]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'preventResponseCaching' of type [boolean]
+TRACE - Found bean property 'warnLogCategory' of type [java.lang.String]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'mappedHandlerClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'mappedHandlers' of type [java.util.Set]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'preventResponseCaching' of type [boolean]
+TRACE - Found bean property 'warnLogCategory' of type [java.lang.String]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG - Creating shared instance of singleton bean 'BusinessObject'
+DEBUG - Creating instance of bean 'BusinessObject'
+DEBUG - Found injected element on class [com.jselmser.lds.BusinessObject]: AutowiredFieldElement for com.jselmser.lds.OracleDAO com.jselmser.lds.BusinessObject.oracleDao
+DEBUG - Eagerly caching bean 'BusinessObject' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [com.jselmser.lds.BusinessObject]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.BusinessObject]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Processing injected method of bean 'BusinessObject': AutowiredFieldElement for com.jselmser.lds.OracleDAO com.jselmser.lds.BusinessObject.oracleDao
+DEBUG - Creating shared instance of singleton bean 'OracleDAO'
+DEBUG - Creating instance of bean 'OracleDAO'
+TRACE - Getting BeanInfo for class [com.jselmser.lds.CustomHibernateDaoSupport]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.CustomHibernateDaoSupport]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'hibernateTemplate' of type [org.springframework.orm.hibernate3.HibernateTemplate]
+TRACE - Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+TRACE - Found bean property 'upSessionFactory' of type [org.hibernate.SessionFactory]
+DEBUG - Found injected element on class [com.jselmser.lds.OracleDAO]: AutowiredMethodElement for public void com.jselmser.lds.CustomHibernateDaoSupport.setupSessionFactory(org.hibernate.SessionFactory)
+DEBUG - Eagerly caching bean 'OracleDAO' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [com.jselmser.lds.OracleDAO]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.OracleDAO]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'hibernateTemplate' of type [org.springframework.orm.hibernate3.HibernateTemplate]
+TRACE - Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+TRACE - Found bean property 'upSessionFactory' of type [org.hibernate.SessionFactory]
+DEBUG - Processing injected method of bean 'OracleDAO': AutowiredMethodElement for public void com.jselmser.lds.CustomHibernateDaoSupport.setupSessionFactory(org.hibernate.SessionFactory)
+DEBUG - Creating shared instance of singleton bean 'sessionFactory'
+DEBUG - Creating instance of bean 'sessionFactory'
+DEBUG - Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]
+TRACE - Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]
+TRACE - Found bean property 'annotatedClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'annotatedPackages' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+TRACE - Found bean property 'cacheProvider' of type [org.hibernate.cache.CacheProvider]
+TRACE - Found bean property 'cacheRegionFactory' of type [java.lang.Object]
+TRACE - Found bean property 'cacheableMappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'collectionCacheStrategies' of type [java.util.Properties]
+TRACE - Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+TRACE - Found bean property 'configLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'configuration' of type [org.hibernate.cfg.Configuration]
+TRACE - Found bean property 'configurationClass' of type [java.lang.Class]
+TRACE - Found bean property 'dataSource' of type [javax.sql.DataSource]
+TRACE - Found bean property 'entityCacheStrategies' of type [java.util.Properties]
+TRACE - Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+TRACE - Found bean property 'entityTypeFilters' of type [[Lorg.springframework.core.type.filter.TypeFilter;]
+TRACE - Found bean property 'eventListeners' of type [java.util.Map]
+TRACE - Found bean property 'exposeTransactionAwareSessionFactory' of type [boolean]
+TRACE - Found bean property 'filterDefinitions' of type [[Lorg.hibernate.engine.FilterDefinition;]
+TRACE - Found bean property 'hibernateProperties' of type [java.util.Properties]
+TRACE - Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+TRACE - Found bean property 'jtaTransactionManager' of type [javax.transaction.TransactionManager]
+TRACE - Found bean property 'lobHandler' of type [org.springframework.jdbc.support.lob.LobHandler]
+TRACE - Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+TRACE - Found bean property 'object' of type [org.hibernate.SessionFactory]
+TRACE - Found bean property 'objectType' of type [java.lang.Class]
+TRACE - Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+TRACE - Found bean property 'schemaUpdate' of type [boolean]
+TRACE - Found bean property 'singleton' of type [boolean]
+TRACE - Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+TRACE - Found bean property 'useTransactionAwareDataSource' of type [boolean]
+DEBUG - Creating shared instance of singleton bean 'dataSource'
+DEBUG - Creating instance of bean 'dataSource'
+DEBUG - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+TRACE - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'connection' of type [java.sql.Connection]
+TRACE - Found bean property 'connectionProperties' of type [java.util.Properties]
+TRACE - Found bean property 'driverClassName' of type [java.lang.String]
+TRACE - Found bean property 'logWriter' of type [java.io.PrintWriter]
+TRACE - Found bean property 'loginTimeout' of type [int]
+TRACE - Found bean property 'parentLogger' of type [java.util.logging.Logger]
+TRACE - Found bean property 'password' of type [java.lang.String]
+TRACE - Found bean property 'url' of type [java.lang.String]
+TRACE - Found bean property 'username' of type [java.lang.String]
+INFO - Loaded JDBC driver: oracle.jdbc.OracleDriver
+DEBUG - Finished creating instance of bean 'dataSource'
+TRACE - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@514646ef]
+TRACE - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@514646ef]
+TRACE - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@514646ef]
+DEBUG - Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+INFO - Building new Hibernate SessionFactory
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@orcl.ctspwd91qsm3.us-west-2.rds.amazonaws.com:1521:orcl]
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@orcl.ctspwd91qsm3.us-west-2.rds.amazonaws.com:1521:orcl]
+DEBUG - Finished creating instance of bean 'sessionFactory'
+DEBUG - Autowiring by type from bean name 'OracleDAO' to bean named 'sessionFactory'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'OracleDAO'
+DEBUG - Finished creating instance of bean 'OracleDAO'
+DEBUG - Autowiring by type from bean name 'BusinessObject' to bean named 'OracleDAO'
+DEBUG - Finished creating instance of bean 'BusinessObject'
+DEBUG - Returning cached instance of singleton bean 'OracleDAO'
+DEBUG - Creating shared instance of singleton bean 'webHandler'
+DEBUG - Creating instance of bean 'webHandler'
+DEBUG - Found injected element on class [com.jselmser.lds.servlet.WebHandler]: AutowiredFieldElement for com.jselmser.lds.BusinessObject com.jselmser.lds.servlet.WebHandler.bo
+DEBUG - Eagerly caching bean 'webHandler' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [com.jselmser.lds.servlet.WebHandler]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.servlet.WebHandler]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Processing injected method of bean 'webHandler': AutowiredFieldElement for com.jselmser.lds.BusinessObject com.jselmser.lds.servlet.WebHandler.bo
+DEBUG - Returning cached instance of singleton bean 'BusinessObject'
+DEBUG - Autowiring by type from bean name 'webHandler' to bean named 'BusinessObject'
+DEBUG - Finished creating instance of bean 'webHandler'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.view.InternalResourceViewResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.view.InternalResourceViewResolver]
+TRACE - Found bean property 'alwaysInclude' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'attributes' of type [java.util.Properties]
+TRACE - Found bean property 'attributesMap' of type [java.util.Map]
+TRACE - Found bean property 'cache' of type [boolean]
+TRACE - Found bean property 'cacheLimit' of type [int]
+TRACE - Found bean property 'cacheUnresolved' of type [boolean]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'contentType' of type [java.lang.String]
+TRACE - Found bean property 'exposeContextBeansAsAttributes' of type [boolean]
+TRACE - Found bean property 'exposePathVariables' of type [java.lang.Boolean]
+TRACE - Found bean property 'exposedContextBeanNames' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'prefix' of type [java.lang.String]
+TRACE - Found bean property 'redirectContextRelative' of type [boolean]
+TRACE - Found bean property 'redirectHttp10Compatible' of type [boolean]
+TRACE - Found bean property 'requestContextAttribute' of type [java.lang.String]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'suffix' of type [java.lang.String]
+TRACE - Found bean property 'viewClass' of type [java.lang.Class]
+TRACE - Found bean property 'viewNames' of type [[Ljava.lang.String;]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG - Returning cached instance of singleton bean 'dataSource'
+DEBUG - Returning cached instance of singleton bean 'sessionFactory'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1f2d2181]
+DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+TRACE - Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:07 EST 2015]; root of context hierarchy]
+DEBUG - Returning cached instance of singleton bean 'BusinessObject'
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+INFO - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:45 EST 2015]; root of context hierarchy
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+INFO - Loading XML bean definitions from class path resource [WEB-INF/dispatcher-servlet.xml]
+DEBUG - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd]
+DEBUG - Loading schema mappings from [META-INF/spring.schemas]
+DEBUG - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-3.1.xsd
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.1.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.1.xsd] in classpath: org/springframework/context/config/spring-context-3.1.xsd
+DEBUG - Loading bean definitions
+DEBUG - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Looking for matching resources in directory tree [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds]
+DEBUG - Searching directory [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds] for files matching pattern [C:/Users/joshs/Documents/Eintern/Work Projects/LDS/LDS/target/classes/com/jselmser/lds/**/*.class]
+DEBUG - Searching directory [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet] for files matching pattern [C:/Users/joshs/Documents/Eintern/Work Projects/LDS/LDS/target/classes/com/jselmser/lds/**/*.class]
+DEBUG - Resolved location pattern [classpath*:com/jselmser/lds/**/*.class] to resources [file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\AppStart.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\BusinessObject.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Commit.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\CustomHibernateDaoSupport.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\GenericDAO.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Lender.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Loan.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\OracleDAO.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\ErrorServlet.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\WebHandler.class], file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\TestSteps.class]]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\AppStart.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\AppStart.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\BusinessObject.class]
+DEBUG - Identified candidate component class: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\BusinessObject.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Commit.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Commit.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\CustomHibernateDaoSupport.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\CustomHibernateDaoSupport.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\GenericDAO.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\GenericDAO.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Lender.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Lender.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Loan.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\Loan.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\OracleDAO.class]
+DEBUG - Identified candidate component class: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\OracleDAO.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\ErrorServlet.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\ErrorServlet.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\WebHandler.class]
+DEBUG - Identified candidate component class: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\servlet\WebHandler.class]
+TRACE - Scanning file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\TestSteps.class]
+TRACE - Ignored because not matching any filter: file [C:\Users\joshs\Documents\Eintern\Work Projects\LDS\LDS\target\classes\com\jselmser\lds\TestSteps.class]
+DEBUG - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+INFO - Loading XML bean definitions from class path resource [WEB-INF/DataSource.xml]
+DEBUG - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+DEBUG - Loading bean definitions
+DEBUG - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]
+DEBUG - Imported 2 bean definitions from relative location [DataSource.xml]
+INFO - Loading XML bean definitions from class path resource [WEB-INF/Hibernate.xml]
+DEBUG - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+TRACE - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd]
+DEBUG - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+DEBUG - Loading bean definitions
+DEBUG - Imported 1 bean definitions from relative location [Hibernate.xml]
+DEBUG - Loaded 24 bean definitions from location pattern [/WEB-INF/dispatcher-servlet.xml]
+DEBUG - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: org.springframework.beans.factory.support.DefaultListableBeanFactory@6a192cfe: defining beans [org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,BusinessObject,OracleDAO,webHandler,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory]; root of factory hierarchy
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG - Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG - Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+TRACE - Caching PropertyDescriptors for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+TRACE - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+TRACE - Found bean property 'beanName' of type [java.lang.String]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'fileEncoding' of type [java.lang.String]
+TRACE - Found bean property 'ignoreResourceNotFound' of type [boolean]
+TRACE - Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+TRACE - Found bean property 'localOverride' of type [boolean]
+TRACE - Found bean property 'location' of type [org.springframework.core.io.Resource]
+TRACE - Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'nullValue' of type [java.lang.String]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'placeholderPrefix' of type [java.lang.String]
+TRACE - Found bean property 'placeholderSuffix' of type [java.lang.String]
+TRACE - Found bean property 'properties' of type [java.util.Properties]
+TRACE - Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+TRACE - Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+TRACE - Found bean property 'searchSystemEnvironment' of type [boolean]
+TRACE - Found bean property 'systemPropertiesMode' of type [int]
+TRACE - Found bean property 'systemPropertiesModeName' of type [java.lang.String]
+TRACE - Found bean property 'valueSeparator' of type [java.lang.String]
+TRACE - Converting String to [interface org.springframework.core.io.Resource] using property editor [org.springframework.core.io.ResourceEditor@424e1977]
+DEBUG - Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+INFO - Loading properties file from class path resource [WEB-INF/database.properties]
+TRACE - Resolved placeholder 'jdbc.driverClassName'
+TRACE - Resolved placeholder 'jdbc.url'
+TRACE - Resolved placeholder 'jdbc.username'
+TRACE - Resolved placeholder 'jdbc.password'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@394a2528]
+DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@484970b0]
+INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a192cfe: defining beans [org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,BusinessObject,OracleDAO,webHandler,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'cacheSeconds' of type [int]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'locations' of type [java.util.List]
+TRACE - Found bean property 'requireSession' of type [boolean]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'supportedMethods' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'useCacheControlHeader' of type [boolean]
+TRACE - Found bean property 'useCacheControlNoStore' of type [boolean]
+TRACE - Found bean property 'useExpiresHeader' of type [boolean]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+TRACE - Converting String to [interface org.springframework.core.io.Resource] using property editor [org.springframework.core.io.ResourceEditor@2892dae4]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]
+TRACE - Found bean property 'alwaysUseFullPath' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'defaultHandler' of type [java.lang.Object]
+TRACE - Found bean property 'handlerMap' of type [java.util.Map]
+TRACE - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+TRACE - Found bean property 'lazyInitHandlers' of type [boolean]
+TRACE - Found bean property 'mappings' of type [java.util.Properties]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+TRACE - Found bean property 'rootHandler' of type [java.lang.Object]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'urlDecode' of type [boolean]
+TRACE - Found bean property 'urlMap' of type [java.util.Map]
+TRACE - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Creating instance of bean '(inner bean)'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.format.support.FormattingConversionServiceFactoryBean]
+TRACE - Caching PropertyDescriptors for class [org.springframework.format.support.FormattingConversionServiceFactoryBean]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'converters' of type [java.util.Set]
+TRACE - Found bean property 'embeddedValueResolver' of type [org.springframework.util.StringValueResolver]
+TRACE - Found bean property 'formatterRegistrars' of type [java.util.Set]
+TRACE - Found bean property 'formatters' of type [java.util.Set]
+TRACE - Found bean property 'object' of type [org.springframework.format.support.FormattingConversionService]
+TRACE - Found bean property 'objectType' of type [java.lang.Class]
+TRACE - Found bean property 'registerDefaultFormatters' of type [boolean]
+TRACE - Found bean property 'singleton' of type [boolean]
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Finished creating instance of bean '(inner bean)'
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - Initializing new StandardEnvironment
+DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG - No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+TRACE - Ignoring constructor [public org.springframework.web.servlet.handler.MappedInterceptor(java.lang.String[],org.springframework.web.context.request.WebRequestInterceptor)] of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.web.servlet.handler.MappedInterceptor#0': Unsatisfied dependency expressed through constructor argument with index 1 of type [org.springframework.web.context.request.WebRequestInterceptor]: Could not convert constructor argument value of type [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor] to required type [org.springframework.web.context.request.WebRequestInterceptor]: Failed to convert value of type 'org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor' to required type 'org.springframework.web.context.request.WebRequestInterceptor'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [org.springframework.web.servlet.handler.ConversionServiceExposingInterceptor] to required type [org.springframework.web.context.request.WebRequestInterceptor]: no matching editors or conversion strategy found
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.MappedInterceptor]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.MappedInterceptor]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'interceptor' of type [org.springframework.web.servlet.HandlerInterceptor]
+TRACE - Found bean property 'pathPatterns' of type [[Ljava.lang.String;]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]
+TRACE - Found bean property 'alwaysUseFullPath' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'defaultHandler' of type [java.lang.Object]
+TRACE - Found bean property 'detectHandlersInAncestorContexts' of type [boolean]
+TRACE - Found bean property 'handlerMap' of type [java.util.Map]
+TRACE - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+TRACE - Found bean property 'lazyInitHandlers' of type [boolean]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+TRACE - Found bean property 'rootHandler' of type [java.lang.Object]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'urlDecode' of type [boolean]
+TRACE - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Looking for URL mappings in application context: org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:45 EST 2015]; root of context hierarchy
+DEBUG - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'BusinessObject': no URL paths identified
+DEBUG - Rejected bean name 'OracleDAO': no URL paths identified
+DEBUG - Rejected bean name 'webHandler': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0': no URL paths identified
+DEBUG - Rejected bean name 'dataSource': no URL paths identified
+DEBUG - Rejected bean name 'sessionFactory': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+DEBUG - Rejected bean name 'environment': no URL paths identified
+DEBUG - Rejected bean name 'systemProperties': no URL paths identified
+DEBUG - Rejected bean name 'systemEnvironment': no URL paths identified
+DEBUG - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+DEBUG - Rejected bean name 'messageSource': no URL paths identified
+DEBUG - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]
+TRACE - Found bean property 'alwaysUseFullPath' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'defaultHandler' of type [java.lang.Object]
+TRACE - Found bean property 'detectHandlerMethodsInAncestorContexts' of type [boolean]
+TRACE - Found bean property 'handlerMethods' of type [java.util.Map]
+TRACE - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'urlDecode' of type [boolean]
+TRACE - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+TRACE - Found bean property 'useSuffixPatternMatch' of type [boolean]
+TRACE - Found bean property 'useTrailingSlashMatch' of type [boolean]
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Looking for request mappings in application context: org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:45 EST 2015]; root of context hierarchy
+INFO - Mapped "{[/LoanManagement.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleLoanManagement(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CommitManagement.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCommitManagement(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ArchivedLoans.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleArchivedLoans(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ArchivedCommits.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleArchivedCommits(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/LenderManagement.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleLenderManagement(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CreateCommit.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCreateCommit(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewArchivedLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewArchivedLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CreateLender.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCreateLender(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/CreateLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleCreateLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/Home.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleHome(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewCommit.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewCommit(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/EditLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleEditLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/AddLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleAddLoan(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/RemoveLoan.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleEditCommit(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/AboutMe.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleAboutMe(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/ViewLender.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleViewLender(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+INFO - Mapped "{[/EditLender.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private java.lang.String com.jselmser.lds.servlet.WebHandler.HandleEditLender(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'argumentResolvers' of type [org.springframework.web.method.support.HandlerMethodArgumentResolverComposite]
+TRACE - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+TRACE - Found bean property 'cacheSeconds' of type [int]
+TRACE - Found bean property 'cacheSecondsForSessionAttributeHandlers' of type [int]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'customArgumentResolvers' of type [java.util.List]
+TRACE - Found bean property 'customReturnValueHandlers' of type [java.util.List]
+TRACE - Found bean property 'ignoreDefaultModelOnRedirect' of type [boolean]
+TRACE - Found bean property 'initBinderArgumentResolvers' of type [org.springframework.web.method.support.HandlerMethodArgumentResolverComposite]
+TRACE - Found bean property 'messageConverters' of type [java.util.List]
+TRACE - Found bean property 'modelAndViewResolvers' of type [java.util.List]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'parameterNameDiscoverer' of type [org.springframework.core.ParameterNameDiscoverer]
+TRACE - Found bean property 'requireSession' of type [boolean]
+TRACE - Found bean property 'returnValueHandlers' of type [org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'sessionAttributeStore' of type [org.springframework.web.bind.support.SessionAttributeStore]
+TRACE - Found bean property 'supportedMethods' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'synchronizeOnSession' of type [boolean]
+TRACE - Found bean property 'useCacheControlHeader' of type [boolean]
+TRACE - Found bean property 'useCacheControlNoStore' of type [boolean]
+TRACE - Found bean property 'useExpiresHeader' of type [boolean]
+TRACE - Found bean property 'webBindingInitializer' of type [org.springframework.web.bind.support.WebBindingInitializer]
+DEBUG - Creating instance of bean '(inner bean)#1'
+TRACE - Getting BeanInfo for class [org.springframework.web.bind.support.ConfigurableWebBindingInitializer]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.bind.support.ConfigurableWebBindingInitializer]
+TRACE - Found bean property 'autoGrowNestedPaths' of type [boolean]
+TRACE - Found bean property 'bindingErrorProcessor' of type [org.springframework.validation.BindingErrorProcessor]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'conversionService' of type [org.springframework.core.convert.ConversionService]
+TRACE - Found bean property 'directFieldAccess' of type [boolean]
+TRACE - Found bean property 'messageCodesResolver' of type [org.springframework.validation.MessageCodesResolver]
+TRACE - Found bean property 'propertyEditorRegistrar' of type [org.springframework.beans.PropertyEditorRegistrar]
+TRACE - Found bean property 'propertyEditorRegistrars' of type [[Lorg.springframework.beans.PropertyEditorRegistrar;]
+TRACE - Found bean property 'validator' of type [org.springframework.validation.Validator]
+DEBUG - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG - Finished creating instance of bean '(inner bean)#1'
+DEBUG - Creating instance of bean '(inner bean)#2'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.ByteArrayHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.ByteArrayHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#2'
+DEBUG - Creating instance of bean '(inner bean)#3'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.StringHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.StringHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+TRACE - Found bean property 'writeAcceptCharset' of type [boolean]
+DEBUG - Finished creating instance of bean '(inner bean)#3'
+DEBUG - Creating instance of bean '(inner bean)#4'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.ResourceHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.ResourceHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#4'
+DEBUG - Creating instance of bean '(inner bean)#5'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.xml.SourceHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.SourceHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#5'
+DEBUG - Creating instance of bean '(inner bean)#6'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter]
+TRACE - Found bean property 'charset' of type [java.nio.charset.Charset]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'partConverters' of type [java.util.List]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#6'
+DEBUG - Creating instance of bean '(inner bean)#7'
+TRACE - Getting BeanInfo for class [org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter]
+TRACE - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'supportedMediaTypes' of type [java.util.List]
+DEBUG - Finished creating instance of bean '(inner bean)#7'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver]
+TRACE - Found bean property 'argumentResolvers' of type [org.springframework.web.method.support.HandlerMethodArgumentResolverComposite]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'customArgumentResolvers' of type [java.util.List]
+TRACE - Found bean property 'customReturnValueHandlers' of type [java.util.List]
+TRACE - Found bean property 'mappedHandlerClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'mappedHandlers' of type [java.util.Set]
+TRACE - Found bean property 'messageConverters' of type [java.util.List]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'preventResponseCaching' of type [boolean]
+TRACE - Found bean property 'returnValueHandlers' of type [org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite]
+TRACE - Found bean property 'warnLogCategory' of type [java.lang.String]
+DEBUG - Creating instance of bean '(inner bean)#8'
+DEBUG - Finished creating instance of bean '(inner bean)#8'
+DEBUG - Creating instance of bean '(inner bean)#9'
+DEBUG - Finished creating instance of bean '(inner bean)#9'
+DEBUG - Creating instance of bean '(inner bean)#10'
+DEBUG - Finished creating instance of bean '(inner bean)#10'
+DEBUG - Creating instance of bean '(inner bean)#11'
+DEBUG - Finished creating instance of bean '(inner bean)#11'
+DEBUG - Creating instance of bean '(inner bean)#12'
+DEBUG - Finished creating instance of bean '(inner bean)#12'
+DEBUG - Creating instance of bean '(inner bean)#13'
+DEBUG - Finished creating instance of bean '(inner bean)#13'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'mappedHandlerClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'mappedHandlers' of type [java.util.Set]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'preventResponseCaching' of type [boolean]
+TRACE - Found bean property 'warnLogCategory' of type [java.lang.String]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'mappedHandlerClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'mappedHandlers' of type [java.util.Set]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'preventResponseCaching' of type [boolean]
+TRACE - Found bean property 'warnLogCategory' of type [java.lang.String]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG - Creating shared instance of singleton bean 'BusinessObject'
+DEBUG - Creating instance of bean 'BusinessObject'
+DEBUG - Found injected element on class [com.jselmser.lds.BusinessObject]: AutowiredFieldElement for com.jselmser.lds.OracleDAO com.jselmser.lds.BusinessObject.oracleDao
+DEBUG - Eagerly caching bean 'BusinessObject' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [com.jselmser.lds.BusinessObject]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.BusinessObject]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Processing injected method of bean 'BusinessObject': AutowiredFieldElement for com.jselmser.lds.OracleDAO com.jselmser.lds.BusinessObject.oracleDao
+DEBUG - Creating shared instance of singleton bean 'OracleDAO'
+DEBUG - Creating instance of bean 'OracleDAO'
+TRACE - Getting BeanInfo for class [com.jselmser.lds.CustomHibernateDaoSupport]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.CustomHibernateDaoSupport]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'hibernateTemplate' of type [org.springframework.orm.hibernate3.HibernateTemplate]
+TRACE - Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+TRACE - Found bean property 'upSessionFactory' of type [org.hibernate.SessionFactory]
+DEBUG - Found injected element on class [com.jselmser.lds.OracleDAO]: AutowiredMethodElement for public void com.jselmser.lds.CustomHibernateDaoSupport.setupSessionFactory(org.hibernate.SessionFactory)
+DEBUG - Eagerly caching bean 'OracleDAO' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [com.jselmser.lds.OracleDAO]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.OracleDAO]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'hibernateTemplate' of type [org.springframework.orm.hibernate3.HibernateTemplate]
+TRACE - Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+TRACE - Found bean property 'upSessionFactory' of type [org.hibernate.SessionFactory]
+DEBUG - Processing injected method of bean 'OracleDAO': AutowiredMethodElement for public void com.jselmser.lds.CustomHibernateDaoSupport.setupSessionFactory(org.hibernate.SessionFactory)
+DEBUG - Creating shared instance of singleton bean 'sessionFactory'
+DEBUG - Creating instance of bean 'sessionFactory'
+DEBUG - Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]
+TRACE - Caching PropertyDescriptors for class [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean]
+TRACE - Found bean property 'annotatedClasses' of type [[Ljava.lang.Class;]
+TRACE - Found bean property 'annotatedPackages' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+TRACE - Found bean property 'cacheProvider' of type [org.hibernate.cache.CacheProvider]
+TRACE - Found bean property 'cacheRegionFactory' of type [java.lang.Object]
+TRACE - Found bean property 'cacheableMappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'collectionCacheStrategies' of type [java.util.Properties]
+TRACE - Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+TRACE - Found bean property 'configLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'configuration' of type [org.hibernate.cfg.Configuration]
+TRACE - Found bean property 'configurationClass' of type [java.lang.Class]
+TRACE - Found bean property 'dataSource' of type [javax.sql.DataSource]
+TRACE - Found bean property 'entityCacheStrategies' of type [java.util.Properties]
+TRACE - Found bean property 'entityInterceptor' of type [org.hibernate.Interceptor]
+TRACE - Found bean property 'entityTypeFilters' of type [[Lorg.springframework.core.type.filter.TypeFilter;]
+TRACE - Found bean property 'eventListeners' of type [java.util.Map]
+TRACE - Found bean property 'exposeTransactionAwareSessionFactory' of type [boolean]
+TRACE - Found bean property 'filterDefinitions' of type [[Lorg.hibernate.engine.FilterDefinition;]
+TRACE - Found bean property 'hibernateProperties' of type [java.util.Properties]
+TRACE - Found bean property 'jdbcExceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+TRACE - Found bean property 'jtaTransactionManager' of type [javax.transaction.TransactionManager]
+TRACE - Found bean property 'lobHandler' of type [org.springframework.jdbc.support.lob.LobHandler]
+TRACE - Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+TRACE - Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+TRACE - Found bean property 'object' of type [org.hibernate.SessionFactory]
+TRACE - Found bean property 'objectType' of type [java.lang.Class]
+TRACE - Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+TRACE - Found bean property 'schemaUpdate' of type [boolean]
+TRACE - Found bean property 'singleton' of type [boolean]
+TRACE - Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+TRACE - Found bean property 'useTransactionAwareDataSource' of type [boolean]
+DEBUG - Creating shared instance of singleton bean 'dataSource'
+DEBUG - Creating instance of bean 'dataSource'
+DEBUG - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+TRACE - Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DriverManagerDataSource]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'connection' of type [java.sql.Connection]
+TRACE - Found bean property 'connectionProperties' of type [java.util.Properties]
+TRACE - Found bean property 'driverClassName' of type [java.lang.String]
+TRACE - Found bean property 'logWriter' of type [java.io.PrintWriter]
+TRACE - Found bean property 'loginTimeout' of type [int]
+TRACE - Found bean property 'parentLogger' of type [java.util.logging.Logger]
+TRACE - Found bean property 'password' of type [java.lang.String]
+TRACE - Found bean property 'url' of type [java.lang.String]
+TRACE - Found bean property 'username' of type [java.lang.String]
+INFO - Loaded JDBC driver: oracle.jdbc.OracleDriver
+DEBUG - Finished creating instance of bean 'dataSource'
+TRACE - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@514646ef]
+TRACE - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@514646ef]
+TRACE - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@514646ef]
+DEBUG - Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+INFO - Building new Hibernate SessionFactory
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@orcl.ctspwd91qsm3.us-west-2.rds.amazonaws.com:1521:orcl]
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@orcl.ctspwd91qsm3.us-west-2.rds.amazonaws.com:1521:orcl]
+DEBUG - Finished creating instance of bean 'sessionFactory'
+DEBUG - Autowiring by type from bean name 'OracleDAO' to bean named 'sessionFactory'
+DEBUG - Invoking afterPropertiesSet() on bean with name 'OracleDAO'
+DEBUG - Finished creating instance of bean 'OracleDAO'
+DEBUG - Autowiring by type from bean name 'BusinessObject' to bean named 'OracleDAO'
+DEBUG - Finished creating instance of bean 'BusinessObject'
+DEBUG - Returning cached instance of singleton bean 'OracleDAO'
+DEBUG - Creating shared instance of singleton bean 'webHandler'
+DEBUG - Creating instance of bean 'webHandler'
+DEBUG - Found injected element on class [com.jselmser.lds.servlet.WebHandler]: AutowiredFieldElement for com.jselmser.lds.BusinessObject com.jselmser.lds.servlet.WebHandler.bo
+DEBUG - Eagerly caching bean 'webHandler' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [com.jselmser.lds.servlet.WebHandler]
+TRACE - Caching PropertyDescriptors for class [com.jselmser.lds.servlet.WebHandler]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+DEBUG - Processing injected method of bean 'webHandler': AutowiredFieldElement for com.jselmser.lds.BusinessObject com.jselmser.lds.servlet.WebHandler.bo
+DEBUG - Returning cached instance of singleton bean 'BusinessObject'
+DEBUG - Autowiring by type from bean name 'webHandler' to bean named 'BusinessObject'
+DEBUG - Finished creating instance of bean 'webHandler'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG - Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG - Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+TRACE - Getting BeanInfo for class [org.springframework.web.servlet.view.InternalResourceViewResolver]
+TRACE - Caching PropertyDescriptors for class [org.springframework.web.servlet.view.InternalResourceViewResolver]
+TRACE - Found bean property 'alwaysInclude' of type [boolean]
+TRACE - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+TRACE - Found bean property 'attributes' of type [java.util.Properties]
+TRACE - Found bean property 'attributesMap' of type [java.util.Map]
+TRACE - Found bean property 'cache' of type [boolean]
+TRACE - Found bean property 'cacheLimit' of type [int]
+TRACE - Found bean property 'cacheUnresolved' of type [boolean]
+TRACE - Found bean property 'class' of type [java.lang.Class]
+TRACE - Found bean property 'contentType' of type [java.lang.String]
+TRACE - Found bean property 'exposeContextBeansAsAttributes' of type [boolean]
+TRACE - Found bean property 'exposePathVariables' of type [java.lang.Boolean]
+TRACE - Found bean property 'exposedContextBeanNames' of type [[Ljava.lang.String;]
+TRACE - Found bean property 'order' of type [int]
+TRACE - Found bean property 'prefix' of type [java.lang.String]
+TRACE - Found bean property 'redirectContextRelative' of type [boolean]
+TRACE - Found bean property 'redirectHttp10Compatible' of type [boolean]
+TRACE - Found bean property 'requestContextAttribute' of type [java.lang.String]
+TRACE - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+TRACE - Found bean property 'suffix' of type [java.lang.String]
+TRACE - Found bean property 'viewClass' of type [java.lang.Class]
+TRACE - Found bean property 'viewNames' of type [[Ljava.lang.String;]
+DEBUG - Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG - Returning cached instance of singleton bean 'dataSource'
+DEBUG - Returning cached instance of singleton bean 'sessionFactory'
+DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1f2d2181]
+DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+TRACE - Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@3c679bde: startup date [Thu Dec 17 11:25:45 EST 2015]; root of context hierarchy]
+DEBUG - Returning cached instance of singleton bean 'BusinessObject'
+DEBUG - Opening Hibernate Session
+DEBUG - Creating new JDBC DriverManager Connection to [jdbc:oracle:thin:@orcl.ctspwd91qsm3.us-west-2.rds.amazonaws.com:1521:orcl]
+DEBUG - Eagerly flushing Hibernate session
+DEBUG - Closing Hibernate Session

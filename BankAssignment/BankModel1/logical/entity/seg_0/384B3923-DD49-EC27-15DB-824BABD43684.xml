@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="384B3923-DD49-EC27-15DB-824BABD43684" name="TRANSACTIONS">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:23:55 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transactionId" id="658B8774-1A43-3FF0-8FF9-4D05E1279321">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:24:04 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accountNumberTranferer" id="C040A239-B3A5-321F-72E1-B0D1BCE9FEA2">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:24:16 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accountNumberTranferee" id="77E632B0-BEED-D97C-3FD3-19403EF6DE3B">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:30:49 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="DE61AC22-5342-F4EA-0463-C36E42D55779">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:31:15 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accountNumber" id="D2A4ED18-117A-D606-55D5-787114E8C093">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:38:56 UTC</createdTime>
+<generatorID>C8172DD9-1000-7761-2D15-3255E6E864B1</generatorID>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<referedAttribute>9BE8F4F7-479F-F8EA-88F7-B1E60A919756</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="547B01DC-E66A-6A5D-1984-08BFD627A323">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:47:30 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="002CD273-7EF1-5E96-94FD-9E27FB2359DA" name="TRANSACTIONS PK">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:24:14 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>658B8774-1A43-3FF0-8FF9-4D05E1279321</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

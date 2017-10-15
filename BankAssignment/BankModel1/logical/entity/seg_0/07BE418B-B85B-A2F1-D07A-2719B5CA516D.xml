@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07BE418B-B85B-A2F1-D07A-2719B5CA516D" name="USER_NAME">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:14:34 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="username" id="825135F4-10D0-62A6-4F68-6351DF169402">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:15:07 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="79380A15-ED71-7220-F835-48E5EF74B700">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:16:38 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A48BA6E5-0366-ED8E-CEEC-2BF8242A1F52" name="USER_NAME PK">
+<createdBy>joshs</createdBy>
+<createdTime>2015-11-07 22:16:18 UTC</createdTime>
+<ownerDesignName>BankModel1</ownerDesignName>
+<engineerTo>
+<item key="A99BE93B-1847-A660-556E-B817D694942F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>825135F4-10D0-62A6-4F68-6351DF169402</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
