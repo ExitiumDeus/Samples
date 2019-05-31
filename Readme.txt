@@ -11,3 +11,5 @@ LDS/LDS Automation -  This is a SDET TDD java web app, that was my final project
 MphasisTest - Through Revature I was contracted to Mphasis and through them JPMC. This was an interview test.
 
 WordCount - This was an interview test after my time with Revature.
+
+Side note: I tried to make sure I updated everything.  If you see a jselmser instead of eselmser or my old name somewhere, let me know.  I had my name changed and I believe I updated everything, but if you find something I missed, that's why.

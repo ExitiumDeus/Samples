@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="D2A7FA43-7FDC-CCCE-BD3C-9813F80468F6">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:37:14 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>

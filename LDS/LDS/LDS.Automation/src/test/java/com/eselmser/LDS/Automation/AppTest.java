@@ -1,4 +1,4 @@
-package com.jselmser.LDS.Automation;
+package com.eselmser.LDS.Automation;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

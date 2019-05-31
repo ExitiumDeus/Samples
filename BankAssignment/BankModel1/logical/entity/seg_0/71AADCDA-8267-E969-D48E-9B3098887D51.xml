@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71AADCDA-8267-E969-D48E-9B3098887D51" name="ACCOUNT_HOLDER">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:16:59 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="customerId" id="7FBF3A14-3B59-179D-C81B-9DEE09A6FDEA">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:17:15 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -28,7 +28,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="firstName" id="19C0987F-FBCD-D5B0-CFE8-94CB6BDC047D">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:17:38 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="lastName" id="27ED7411-3009-0C8B-264F-85BCC6A12DD2">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:18:07 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -55,7 +55,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="address" id="D1870B70-3BB9-ADCD-CA76-845560F5CDE5">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:18:21 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -69,7 +69,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="state" id="4583A498-5B00-52D4-17F9-D4D612E24A0A">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:18:42 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -83,7 +83,7 @@
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="city" id="C99545F7-936E-FD63-823A-13C5E70540F3">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:19:21 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -97,7 +97,7 @@
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="zip" id="AE29B0F0-8EDA-4BFE-ADFA-B0D639493D44">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:19:33 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -111,7 +111,7 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="username" id="B8767EF2-96EA-0ACA-0391-FCE5BCA67A1F">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:39:08 UTC</createdTime>
 <generatorID>67CC36D6-A182-77F0-5381-1F96DA032000</generatorID>
 <ownerDesignName>BankModel1</ownerDesignName>
@@ -128,7 +128,7 @@
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DF6696B6-22D6-6E8C-7A60-09D91F07337B" name="ACCOUNT_HOLDER PK">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:17:32 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>

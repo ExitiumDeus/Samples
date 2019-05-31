@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="001408D4-AE03-F3E6-595A-F06270567443" name="ACCOUNT">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:20:13 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -16,7 +16,7 @@
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="customerId" id="B4C633DC-F943-2288-0155-B4DA722D724F">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:20:19 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -28,7 +28,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="accountNumber" id="9BE8F4F7-479F-F8EA-88F7-B1E60A919756">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:20:21 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="routingNumber" id="C903B8C6-6E3B-68D9-E75F-58F6DF3F4692">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:21:41 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -54,7 +54,7 @@
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="balance" id="1B660164-D146-168C-AC2B-CFB28D90BB0D">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:22:05 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>
@@ -64,7 +64,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="customerId1" id="5C59FBB9-F3E0-BF67-1396-A349C4B1E0D8">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:37:14 UTC</createdTime>
 <generatorID>D2A7FA43-7FDC-CCCE-BD3C-9813F80468F6</generatorID>
 <ownerDesignName>BankModel1</ownerDesignName>
@@ -80,7 +80,7 @@
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FB6025B8-A531-D294-5AF1-F592EE5E9205" name="ACCOUNT PK">
-<createdBy>joshs</createdBy>
+<createdBy>ellies</createdBy>
 <createdTime>2015-11-07 22:20:39 UTC</createdTime>
 <ownerDesignName>BankModel1</ownerDesignName>
 <engineerTo>

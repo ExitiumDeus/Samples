@@ -1,4 +1,4 @@
-package com.jselmser.LDS.Automation;
+package com.eselmser.MphasisTest;
 
 import org.junit.runner.RunWith;
 

@@ -1,4 +1,4 @@
-package com.jselmser.MphasisTest;
+package com.eselmser.MphasisTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
